@@ -1,0 +1,120 @@
+export default {
+  namespace: 'thealbum',
+
+  state: {
+    advanced: [{
+      id: 1,
+      image: 'https://images.unsplash.com/photo-1484100356142-db6ab6244067?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=287b89ab963953c2301037e788c2eb99&w=1000&q=80',
+      title: '古代过年',
+      seen: '1566',
+      price: '1.0',
+    },
+    {
+      id: 2,
+      image: 'https://images.pexels.com/photos/592077/pexels-photo-592077.jpeg?auto=compress&cs=tinysrgb&h=350',
+      title: '枪支进化论',
+      seen: '9111',
+      price: '30.0',
+    },
+    {
+      id: 3,
+      image: 'https://media1.popsugar-assets.com/files/thumbor/Y2xaqelv1ikwqTgdPJ2XS4l5b_c/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/11/14/031/n/1922507/9eae0048d607f280_thumb_temp_cover_file31254731411920184/i/iPhone-Wallpaper.jpg',
+      title: '国家宝藏',
+      seen: '4632',
+      price: '1.0',
+    },
+    {
+      id: 4,
+      image: 'https://images.unsplash.com/photo-1508739773434-c26b3d09e071?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ccb5b4494ff31fdca6ae901e794eab9&w=1000&q=80',
+      title: '大咖聊论语',
+      seen: '6693',
+      price: '20.0',
+    },
+    {
+      id: 5,
+      image: 'https://images.unsplash.com/photo-1462524500090-89443873e2b4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3c9dbd6aa8af03f04449a29f03affa24&w=1000&q=80',
+      title: '古都衰落史',
+      seen: '14271',
+      price: '22.0',
+    },
+    {
+      id: 6,
+      image: 'https://wallpaperstudio10.com/static/wpdb/wallpapers/560x315/154754.jpg',
+      title: '消失的超级武器',
+      seen: '27390',
+      price: '26.0',
+    },
+    {
+      id: 7,
+      image: 'https://www.porterspaints.com/media/3276/other-collections.jpg?anchor=center&mode=crop&width=500&height=500&rnd=131374627690000000',
+      title: '论语奇葩说',
+      seen: '0',
+      price: '59.0',
+    }],
+
+    collection: [{
+      id: 1,
+      image: 'https://secure.img1-fg.wfcdn.com/im/40564907/resize-h800%5Ecompr-r85/3431/34316184/Essentials+33%2527+x+20.5%2522+Barn+Board+Thin+Plank+Wallpaper+Roll.jpg',
+      title: '《山海经》中的“四不像”竟然出现在非洲！',
+      minute: '03',
+      second: '07',
+    },
+    {
+      id: 2,
+      image: 'https://images.pexels.com/photos/8633/nature-tree-green-pine.jpg?auto=compress&cs=tinysrgb&h=350',
+      title: '妓院行话如何变成现代热词的？',
+      minute: '02',
+      second: '43',
+    },
+    {
+      id: 3,
+      image: 'https://wallpaperstudio10.com/static/wpdb/wallpapers/560x315/148541.jpg',
+      title: '日本女星自称贵妃后人？杨贵妃到底死没死？',
+      minute: '03',
+      second: '08',
+    }],
+
+    purchased: [{
+      id: 1,
+      image: 'https://wallpaperbrowse.com/media/images/h-d-wallpaper-download-016.jpg',
+      title: '国家宝藏',
+      seen: '4665',
+    },
+    {
+      id: 2,
+      image: 'https://media1.popsugar-assets.com/files/thumbor/ShFtd04LBPdGRXmDw9U93Q-jZtg/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2016/05/10/017/n/1922507/32bf06bae2b7185a_papers.co-ap98-fantasy-castle-illustration-cute-disney-iphone-6/i/Fantasy-Castle.jpg',
+      title: '古代过年',
+      seen: '1761',
+    },
+    {
+      id: 3,
+      image: 'https://images.anthropologie.com/is/image/Anthropologie/20545554_030_b?$an-category$&qlt=80&fit=constrain',
+      title: '丝路行者',
+      seen: '11298',
+    },
+    {
+      id: 4,
+      image: 'https://www.homedepot.ca/is/image/content/dam/images/category/l1-decor/l2-wallpaper-&-supplies/wallpaper-232x174.jpg',
+      title: '西域列国传',
+      seen: '21051',
+    },
+    {
+      id: 5,
+      image: 'https://wallpaperstudio10.com/static/wpdb/wallpapers/560x315/169776.jpg',
+      title: '五代十国创业档案',
+      seen: '16515',
+    },
+    {
+      id: 6,
+      image: 'https://media.architecturaldigest.com/photos/5acf80a570a2ae0282826486/master/w_768/marble-wallpaper.jpg',
+      title: '疾病改变历史',
+      seen: '9732',
+    },
+    {
+      id: 7,
+      image: 'https://images.britcdn.com/wp-content/uploads/2018/04/Baltimore-Wallpaper-Mockup-Promo.jpg',
+      title: '李天飞大话西游',
+      seen: '16758',
+    }],
+  },
+};
